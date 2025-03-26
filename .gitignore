@@ -1,0 +1,47 @@
+# IDE 配置文件
+.idea/
+.vscode/
+*.sublime-*
+*.swp
+.DS_Store
+
+# 依赖目录
+node_modules/
+vendor/
+venv/
+env/
+.env
+
+# 编译输出
+dist/
+build/
+out/
+target/
+*.pyc
+__pycache__/
+*.class
+
+# 日志文件
+*.log
+logs/
+npm-debug.log*
+
+# 本地配置文件
+.env.local
+.env.*.local
+config.local.js
+
+# 临时文件
+tmp/
+temp/
+.temp/
+*.tmp
+
+# 系统文件
+Thumbs.db
+.DS_Store
+*.bak
+
+# 测试覆盖率报告
+coverage/
+.coverage 
